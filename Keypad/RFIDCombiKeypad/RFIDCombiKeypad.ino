@@ -165,7 +165,7 @@ void loop() {
         digitalWrite(LED_RED, HIGH);
         redOffAt = now + WRONG_MS;
         tone(BUZZER_PIN, 400, 200);
-        resetState();
+        resetState();-
       }
     }
 
